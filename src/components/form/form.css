@@ -1,0 +1,75 @@
+.sch-group{
+  --h:34px;
+  margin-bottom:20px;
+  padding-bottom:10px;
+  height: var(--h);
+  border-bottom: 1px solid #111;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sch-group input, 
+.sch-group select{
+  border:0;
+}
+.sch-group li {
+  position: relative;
+}
+.sch-group li > *{
+  position: relative;
+  line-height: var(--h);
+  font-size:1.6rem;
+  box-sizing: border-box;
+}
+.sch-group li+ li:before{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 10px;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  left: 0;
+  background: #111;
+}
+
+.data-input input[type="text"]{
+  width: 114px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  font-family: var(--base-font);
+  font-size:1.6rem
+}
+
+.sch-select{
+  margin-left: 4px;
+  padding-right: 20px;
+  border: none;
+  font-weight:600;
+}
+
+.sch-input-box{
+  height: var(--h);
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+.sch-input-box input[type="text"] {
+  width: 90%;
+  height: 100%;
+  padding: 0 10px;
+  font-size:1.6rem;
+  box-sizing: border-box;
+}
+
+.sch-input-box .btn {
+  background: var(--bg-ico);
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 24px;
+  height: 100%;
+  background-position: -64px 8px;
+  text-indent: -9999em;
+}

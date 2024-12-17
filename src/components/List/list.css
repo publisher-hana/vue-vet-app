@@ -1,0 +1,110 @@
+.list_style.col figure{
+  margin-bottom:10px;
+}
+
+.list_style .caption{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+.caption >*{
+  font-size:1.6rem;
+}
+.caption .category{
+  font-weight: 600;
+}
+
+.caption .title{
+  font-size:1.6rem;
+  font-weight: 500;
+}
+.list_style a:hover .title{
+  text-decoration: underline;
+}
+.caption .desc{
+  color: var(--c-gray);
+  font-size: 1.4rem;
+}
+.recomm .caption .desc{
+  font-size: 1.6rem;
+}
+.toggle_btns{
+  display:flex;
+  justify-content:flex-end;
+  position:absolute;
+  top:30px;
+  right:0;
+}
+.toggle_btns button{
+  display:block;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: var(--bg-ico) no-repeat;
+  background-position: 0px -30px;
+}
+.toggle_btns button:last-of-type{
+  margin-left: 10px;
+}
+.toggle_btns .album.on{
+  background-position-x: -22px;
+}
+.toggle_btns .list{
+  background-position-x: -44px;
+}
+.toggle_btns .list.on{
+  background-position-x: -67px;
+}
+
+.label{
+  display:inline-block;
+  font-size:1.2rem;
+  height:22px;
+  padding:0 8px;
+  margin-right: 4px;
+  line-height:22px;
+  vertical-align: middle;
+  border-radius: 30px;
+  color:#fff;
+  background: var(--c-gradient);
+  box-sizing: border-box;
+}
+.label.line{
+  border:1px solid var(--primary-color);
+  color: var(--primary-color);
+  background:#fff;
+}
+.label.orange{
+  background: var(--c-orange);
+}
+.label.line.gray{
+  border:1px solid var(  --c-light-gray);
+  color: var(  --c-light-gray);
+  background:#fff;
+}
+
+.btn-more{
+  display: block;
+  margin: 40px auto 0px;
+  padding: 0 32px 0 16px;
+  min-width: 112px;
+  line-height: 30px;
+  border: 1px solid var(--form-border);
+  color: var(--c-gray);
+  border-radius:30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  position: relative;
+}
+.btn-more:after{
+  content: "";
+  position: absolute;
+  top: 34%;
+  right: 10px;
+  vertical-align: 3px;
+  width: 5px;
+  height: 5px;
+  margin-left: 10px;
+  border-left: 2px solid var(--c-gray);
+  border-bottom: 2px solid var(--c-gray);
+  transform: rotate(-45deg);
+}

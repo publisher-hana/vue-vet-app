@@ -1,0 +1,48 @@
+.page-title{
+  margin:20px 0;
+  font-size: 2.2rem;;
+}
+.page-title.aside{
+  margin-top:0;
+  font-size: 1.8rem;
+}
+.visual_wrap{
+  padding-top:50px;
+}
+.visual{
+  height:294px;
+  box-sizing: border-box;
+  color:#fff;
+  background-repeat: no-repeat;
+}
+.visual.freeboard{
+  background-image: url("/src/assets/images/visual_board.jpg");
+}
+.visual.news{
+  background-image: url("/src/assets/images/visual_news.jpg");
+}
+.visual.case{
+  background-image: url("/src/assets/images/visual_case.jpg");
+}
+.visual.report{
+  background-image: url("/src/assets/images/visual_report.jpg");
+}
+.visual.tip{
+  background-image: url("/src/assets/images/visual_tip.jpg");
+}
+.visual .visual_inner{
+  width: var(--cont-width);
+  margin:0 auto;
+  padding-top:130px;
+}
+.visual h2{
+  margin-bottom:16px;
+  padding-bottom:25px;
+  border-bottom:1px solid #fff;
+  font-size:3rem;
+  font-weight:600;
+}
+.visual p{
+  font-size: 1.6rem;
+}
+
