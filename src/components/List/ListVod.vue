@@ -5,11 +5,9 @@
     type: String, 
     showCol: Boolean,
   });
-  
   const isMain = props.type === "main";
   import ListVodData from '@/data/ListVodData'
   </script>
-  
   <template>
     <div>
      <div class="list_style col">        

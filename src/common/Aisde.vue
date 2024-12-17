@@ -90,7 +90,5 @@ const route = useRoute();
         <BannerItem :imageUrl="banner2" />
       </section>
     </div>
-   
-
   </aside>
 </template>
