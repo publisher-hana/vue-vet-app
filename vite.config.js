@@ -5,8 +5,8 @@ import path from 'path';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  base: '/vue-vet-app/',
   resolve: {
-    base: '/vue-vet-app/',
     alias: {
       '@': path.resolve(__dirname, './src'), // '@'를 'src' 폴더로 설정
     },

@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build && xcopy dist docs /E /I /H /Y "
+    "deploy": "vite build && xcopy dist docs /E /I /H /Y && git add docs && git commit -m 'Deploy to GitHub Pages' && git push origin master"
   },
   "dependencies": {
     "vue": "^3.5.13",
